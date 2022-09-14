@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 100%;
+    background-color: #1E172F;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 60px;
+}
+.img1{
+    width: 200px;
+    height: 100px;
+}
+a{
+    display:flex;
+    justify-content: center;
+    padding:0 40px;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+   flex-direction: row;
+}
+.blanco{
+    color: white;
+}
+.button1 {
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(#8640D5,#047ED5);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: none;
+}
+.menu2{
+   background-image:url(/img/hojas.jpg);
+   height: 110vh;
+   display: flex;
+   align-items: center;
+    flex-direction: row;
+}
+.izquierdo{
+
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    padding:  0 40px;
+    background-color: #2E2550;
+    flex-direction: column;
+    font-size: 40px;;
+    color:white;
+    height: 110vh;
+    max-width: 50%;
+}
+.title1{
+    text-align: justify;
+    color:white;
+}
+.menu3{
+    
+    padding: none ;
+    display: flex;
+    justify-content: justify;
+    border:silver 3px solid;
+    height: 60px;
+    max-width: 80%;
+    flex-direction: row;
+    
+}
+.derecho{
+    max-width: 40%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px
+}
+
+
+.d{
+    margin: 1px;
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    color:#F41486;
+   
+}
+.f{
+    margin:1px;
+    width: 300px;
+    text-align: center;
+    border: 1px white solid; 
+}
+.menu4{
+    background:#f1f2f7;
+    height: 60vh;
+}
+.menu4 h1{
+    font-size: 50px;
+    color:#F41486;
+    text-align: center;
+}
+.right{
+    max-width: 50%;
+    margin: 0;
+}
+.left{
+    max-width: 50%;
+    
+}
+.centro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rosa{
+    color: #F41486;
+    font-size: 20px;
+}
+
+#logos{
+    color: #F41486;
+}
+.title2{
+    color: #e24f9b;
+    font-size: 30px;
+}
+.plans {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1e172f;
+    height: 100vh;
+}
+.plans h1{
+    color:  white;
+    font-size: 50px;
+}
+.lorem{
+    text-align: center;
+    color: white;
+    margin: 0px 300px ;
+}
+.columns{
+    display: flex;
+    align-items:center ;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 0;
+    
+}
+.columnas {
+    width: 17%;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65vh;
+}
+.silver{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: silver;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.ofert{
+    font-size: 50px;
+}
+
+.logos{
+  
+    width: 70px;
+    height: 70;
+}
+.letra{
+    font-size: 20px;
+}
+#rosa{
+    color: #F41486;
+}
+.menu5{
+    margin: 20px 20px;
+    text-align: center;
+    font-size:  20px;
+   
+}
+.text2{
+    margin: 20px 20px;
+    font-size: 19px;
+}
+.bRosa{
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    margin: 10px 0 10px 0;
+    background: linear-gradient(to right, #eb66ab, #F41486);
+    color: white;
+    font-size: 20px;
+}
+.bazul{
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    margin: 10px 0 10px 0;
+    background: #1E172F;
+    color: white;
+    font-size: 20px 
+}
+.pie{
+    margin:20px 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rosado{
+    color:#F41486 ;
+}
+.logos2{
+    display: flex;
+    width: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width:600px) {
+    header{
+        justify-content: start;
+        height: 300px;
+        flex-direction: column;
+        max-width: 100%;
+        height:30vh;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        align-items: center;
+        padding: 30px 10px;
+    }
+    a{
+        padding: 0;
+        font-size: 20px;
+        
+    }
+    .menu{
+        padding: 0;
+
+    }
+    .button1{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .title1{
+        text-align: center;
+    }
+    .menu2{
+        height: 150vh;  
+        flex-direction: column;
+    }
+    .izquierdo{
+        max-width: 100%;
+        text-align: center;
+    }
+    .menu3{
+        max-width: 90%;
+        margin:0 30px ;
+    }
+    .centro{
+        flex-direction: column;
+        
+    }
+    .menu4{
+        height: 80vh;
+    }
+    .right{
+        max-width: 100%;
+    }
+   .plans{
+    max-width: 100%;
+    height: 250vh;
+   }
+   .lorem{
+    max-width: 100%;
+    margin: 0;
+   }
+   .columns{
+    margin:60px 0;
+    flex-direction: column;
+
+   }
+   .columnas{
+   margin: auto 0;
+   
+   margin-bottom: 40px;
+    font-size:15px;
+    width: 100%;
+    height: 100%;
+   }
+   .bRosa{
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+   }
+   .bazul{
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+   }
+   .pie{
+    height: 150PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+}
